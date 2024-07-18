@@ -1,4 +1,4 @@
-# IR Emmiter
+# IR Emitter
 
 Enable IR Emitter for Dell XPS 15 9500
 
