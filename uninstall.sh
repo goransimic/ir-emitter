@@ -1,6 +1,6 @@
 #!/bin/bash
 
 echo "Uninstalling IR Emitter..."
-sudo systemctl -q disable --now ir-emitter
-sudo rm -rf /etc/systemd/system/ir-emitter.service
-sudo rm -rf /usr/local/bin/ir-emitter
+sudo systemctl disable --now ir-emitter
+sudo rm -rfv /etc/systemd/system/ir-emitter.service
+sudo rm -rfv /usr/local/bin/ir-emitter
